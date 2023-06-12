@@ -68,6 +68,10 @@
             console.log({msg:data})
             mensajes.innerHTML += `<li>${data.msg}</li>` 
         });
+       socket.on('conect', (data) => {
+            // callback a ejecutar
+            console.log('conectado')
+        });
         
 
     </script>
