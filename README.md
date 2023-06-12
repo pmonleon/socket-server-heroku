@@ -10,4 +10,8 @@ Cualquier conexión adicional de sockets, se puede hacer en el archivo models/so
 
 ## crear script en package.json: dev and start
 
-## git init
+## git init, git add ., git commit -m "first commit"
+
+## Heroku cli
+
+### heroku logs -1000 --tail
